@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(answer==answer1.getText()){
-                    answer1.setBackgroundColor(answer1.getContext().getResources().getColor(R.color.white));
-                    answer2.setBackgroundColor(answer2.getContext().getResources().getColor(R.color.black));
+                    answer1.setBackgroundColor(answer1.getContext().getResources().getColor(R.color.green));
+                    answer2.setBackgroundColor(answer2.getContext().getResources().getColor(R.color.red));
                 }
                 else{
-                    answer2.setBackgroundColor(answer2.getContext().getResources().getColor(R.color.white));
-                    answer1.setBackgroundColor(answer1.getContext().getResources().getColor(R.color.black));
+                    answer2.setBackgroundColor(answer2.getContext().getResources().getColor(R.color.green));
+                    answer1.setBackgroundColor(answer1.getContext().getResources().getColor(R.color.red));
                 }
             }
         });
